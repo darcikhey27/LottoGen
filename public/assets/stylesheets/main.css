@@ -1,12 +1,29 @@
-.darci {
+body {
+    background-color: #5A5A5A;
+    font-family: Consolas, sans-serif;
     font-size: 1em;
-    color: gray;
+    color: #FFFFFF;
 }
-
 
 .darci-section {
-  background-color: gold;
+    background-color: #FFFFFF;
+    color: #5A5A5A
 }
+
 .dk-span {
-  color: red;
+    font-size: 2em;
+    color: #70AD47;
+}
+.dk-cloud {
+    font-size: 3em;
+}
+
+.list-group {
+    color: #ED7D31;
+    font-size: 2em;
+}
+
+.myfooter {
+    color: #ED7D31;
+    font-size: 1.5em;
 }

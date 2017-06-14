@@ -2,15 +2,19 @@
   <div class="col-md-6">
     <h2>The winning numbers for the <%= @view %> are:</h2>
     <% @numbers.each do |num| %>
-        <span class="dk-span"><%= num %></span>
+        <span class="dk-span"><%= num %>-</span>
     <% end %>
-
+    <span class=glyphicon-class></span>
   </div>
-  <h3>The changes for you to win the game of <%= @view %> are </h3>
+
 
   <div class="col-md-6">
-    <img class="img-responsive" src="/assets/images/<%= @view %>.png" alt="<%= @view %>">
+    <h3>The changes for you to win the game of <%= @view %> are 1 in 175,223,510</h3>
+    <h3>You are more likely to be hit by lighting</h3><span class="glyphicon glyphicon-cloud-download dk-cloud" aria-hidden=true></span>
 
+      <img class="img-responsive" src="/assets/images/<%= @view %>.png" alt="<%= @view %>">
   </div>
+
+
 </div>
 
