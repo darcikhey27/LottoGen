@@ -20,15 +20,18 @@ helpers do
   end
 
   def get_view(n)
+    mode = ""
     if n == 1
-      return "Lotto"
+      #puts "game is lotto"
+      mode =  "Lotto"
     elsif n == 2
-      puts 'game is Powerball'
-      return "Powerball"
+      #puts 'game is Powerball'
+      mode = "Powerball"
     elsif n == 3
-      puts 'game is Megamillions'
-      return "Megamillions"
+      #puts 'game is Megamillions'
+      mode = "Megamillions"
     end
+    return mode
   end
 
 end ## end helpers block
