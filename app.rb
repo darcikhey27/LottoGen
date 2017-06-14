@@ -62,8 +62,8 @@ end
 post '/start' do
   game_mode = params[:game_mode].to_i
   puts "game mode is #{game_mode}"
-  view = get_view(game_mode)
-  puts "view is #{view}"
-  @numbers = get_random(view)
+  @view = get_view(game_mode)
+  puts "view is #{@view}"
+  @numbers = get_random(@view)
   erb :start
 end
