@@ -1,0 +1,17 @@
+.darci {
+    font-size: 1em;
+    color: gray;
+}
+.btn-primary {
+  /*color: #ffffff;*/
+  color: black;
+  background-color: #4E0C10;
+  border-color: #285e8e;
+}
+
+.darci-section {
+  background-color: gold;
+}
+.dk-span {
+  color: red;
+}
