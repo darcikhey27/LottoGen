@@ -6,10 +6,16 @@ body {
 }
 
 .darci-section {
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    color: #5A5A5A;
+    padding: 10px;
+    border-radius: 5px;
+}
+.darci-navbar {
     background-color: #FFFFFF;
     color: #5A5A5A
 }
-
 .dk-span {
     font-size: 2em;
     color: #70AD47;
